@@ -1,0 +1,8 @@
+#Download the wells-startup script
+sudo wget https://raw.githubusercontent.com/kyardley/Rootkit-mount/master/wells-startup /etc/init.d/
+
+# Next, you need to make your script executable by root by changing the file's permissions using the following code:
+sudo chmod 755 /etc/init.d/wells-startup
+
+# Finally, you need to register your script to run at startup with this command (it will probably give you warning about missing LSB tags you can ignore):
+sudo update-rc.d wells-startup defaults
