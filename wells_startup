@@ -1,4 +1,0 @@
-#! /bin/bash
-
-ewfmount/home/sansforensics/Desktop/cases/Rootkit_RootBeer.E01 /mnt/ewf_mount
-mount -t ext4 -o ro,loop,noexec,noload,offset=1048576 /mnt/ewf_mount/ewf1 /mnt/e01
