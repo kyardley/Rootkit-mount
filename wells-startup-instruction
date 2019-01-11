@@ -1,4 +1,4 @@
-#Download the wells-startup script
+# Download the wells-startup script by entering the following command in SIFT's Terminal.
 sudo wget https://raw.githubusercontent.com/kyardley/Rootkit-mount/master/wells-startup /etc/init.d/
 
 # Next, you need to make your script executable by root by changing the file's permissions using the following code:
